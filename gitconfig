@@ -1,3 +1,6 @@
 [user]
-	name = Stanzin Thayas
-	email = wwwstanzinthayas@gmail.com
+    name = Stanzin Thayas
+    email = wwwstanzinthayas@gmail.com
+
+[core]
+    editor = nvim
