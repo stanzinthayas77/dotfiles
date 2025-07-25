@@ -35,3 +35,15 @@ if ! command -v bat &> /dev/null && command -v batcat &> /dev/null; then
 fi
 
 echo "✅ All done! Restart terminal or run: source ~/.zshrc"
+#!/bin/bash
+
+# Symlink dotfiles
+ln -sf ~/.dotfiles/zshrc ~/.zshrc
+ln -sf ~/.dotfiles/p10k.zsh ~/.p10k.zsh
+ln -sf ~/.dotfiles/gitconfig ~/.gitconfig
+ln -sf ~/.dotfiles/aliases ~/.aliases
+ln -sf ~/.dotfiles/aliases.zsh ~/.aliases.zsh
+ln -sf ~/.dotfiles/exports ~/.exports
+ln -sf ~/.dotfiles/functions ~/.functions
+
+echo "✅ Dotfiles linked!"
