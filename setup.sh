@@ -47,3 +47,19 @@ ln -sf ~/.dotfiles/exports ~/.exports
 ln -sf ~/.dotfiles/functions ~/.functions
 
 echo "✅ Dotfiles linked!"
+#!/bin/bash
+
+echo "⚙️  Setting up symlinks..."
+
+# ZSH
+ln -sf ~/.dotfiles/zshrc ~/.zshrc
+ln -sf ~/.dotfiles/p10k.zsh ~/.p10k.zsh
+ln -sf ~/.dotfiles/aliases ~/.aliases
+ln -sf ~/.dotfiles/aliases.zsh ~/.aliases.zsh
+ln -sf ~/.dotfiles/exports ~/.exports
+ln -sf ~/.dotfiles/functions ~/.functions
+
+# Git
+ln -sf ~/.dotfiles/gitconfig ~/.gitconfig
+
+echo "✅ Done! Restart your terminal."
